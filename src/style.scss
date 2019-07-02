@@ -129,7 +129,7 @@ body {
   }
 }
 .main {
-  padding: 4rem 0;
+  padding: 4rem 0 0;
   @media screen and (min-width: map-get($breakpoints-width, md)) {
     right: 0;
     left: 0;
@@ -208,5 +208,23 @@ body {
   50%,
   100% {
     opacity: 0;
+  }
+}
+
+.social-list {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: end;
+  justify-content: center;
+  grid-gap: 1rem;
+  &__link {
+    color: var(--color--accent);
+
+    &:hover {
+      color: var(--color--text);
+    }
+  }
+  &__icon {
+    width: 1.5rem;
   }
 }
