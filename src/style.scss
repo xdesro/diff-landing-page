@@ -165,3 +165,34 @@ body {
     }
   }
 }
+.countdown {
+  font-family: var(--font--display);
+  font-size: 3rem;
+  display: grid;
+  padding: 2rem 1rem;
+  justify-items: center;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(5, auto);
+  &__title {
+    font-family: var(--font--sans);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: var(--color--accent);
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  &:before,
+  &:after {
+    content: ":";
+  }
+  &:before {
+    grid-column: 2;
+  }
+  &:after {
+    grid-column: 4;
+  }
+}

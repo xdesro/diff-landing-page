@@ -2,6 +2,7 @@
   "name": "the-diff-landing-page",
   "version": "1.0.0",
   "description": "The Diff is a stream about finding, experimenting, and celebrating the many ways to make the web wonderful, hosted by Tatiana Mac and Henry Desroches.",
+  "nextStream": "July 4, 2019 17:00:00",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
