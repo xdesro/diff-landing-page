@@ -1,0 +1,9 @@
+# npm lmao
+node_modules/
+
+# Generated
+dist/
+.cache/
+
+# OS
+.DS_Store
